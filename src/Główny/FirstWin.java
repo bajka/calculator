@@ -29,7 +29,7 @@ public class FirstWin extends JPanel implements ActionListener {
     JButton bDzielnik = new JButton("/");
     JButton bSum = new JButton("=");
     JButton bC = new JButton("C");
-    JButton bB = new JButton("�?");
+    JButton bB = new JButton("Del");
     JButton bK = new JButton("x²");
     JButton bP = new JButton(".");
     JTextField tekst = new JTextField("0", JTextField.RIGHT);
@@ -346,7 +346,7 @@ public class FirstWin extends JPanel implements ActionListener {
                         wartosc += "0";
                     }
                 } else {
-                    wartosc = "Idiota";
+                    wartosc = "Niemożliwe";
                 }
 
             };
